@@ -1,0 +1,60 @@
+li {
+  position: relative;
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  list-style: none;
+  border: solid white 2px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px 2px cyan;
+  background-color: #31556d;
+}
+
+p {
+  margin: 0;
+  padding: 5px 18px 10px 0px;
+  margin-left: 27px;
+  font-size: 20px;
+  color: white;
+}
+span {
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+}
+.Check {
+  border-color: gray;
+  border-style: solid;
+  border-width: 0 4px 4px 0;
+  height: 13px;
+  width: 6px;
+  top: 7px;
+  left: 10px;
+  transform: rotate(45deg);
+}
+.Check:hover {
+  border-color: #68e790;
+}
+.Checked {
+  border-color: #00ff55;
+  cursor: pointer;
+}
+.textChecked {
+  text-decoration: line-through;
+}
+.Erase {
+  font-weight: 900;
+  color: red;
+  top: -10px;
+  right: -6px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 0 4px 2px red;
+}
+.Erase:hover {
+  background-color: red;
+  color: white;
+}
