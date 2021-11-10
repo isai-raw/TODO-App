@@ -1,0 +1,42 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  display: flex;
+  justify-content: center;
+}
+label {
+  font-size: 24px;
+  text-shadow: 0 0 10px cyan;
+  text-align: center;
+}
+textarea {
+  width: 250px;
+  height: 50px;
+  margin: 20px;
+  background-color: #31556d;
+  color: white;
+  border: solid 2px white;
+  box-shadow: 0 0 10px cyan;
+}
+textarea::placeholder {
+  color: rgb(131, 191, 199);
+}
+
+button {
+  margin: 5px;
+  background-color: rgb(73, 175, 179);
+  color: white;
+  border: solid 2px white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px cyan;
+}
+.cancel {
+  background-color: gray;
+  box-shadow: none;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
